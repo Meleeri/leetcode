@@ -1,5 +1,0 @@
-[{
-		"directory":	"E:\\Code\\leetcode\\Max_Points_on_a_Line",
-		"command":	"g++ -c E:/Code/leetcode/Max_Points_on_a_Line/main.cpp -std=c++11 -g -O0 -Wall -o ./Debug/main.cpp.o -IE:/Code/data_structure/data_structure -I. -I.",
-		"file":	"E:\\Code\\leetcode\\Max_Points_on_a_Line\\main.cpp"
-	}]
