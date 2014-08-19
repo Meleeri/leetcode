@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="leetcode" Database="/Code/leetcode/.codelite/leetcode.tags">
+  <Project Name="Reverse_Words_in_a_String" Path="Reverse_Words_in_a_String/Reverse_Words_in_a_String.project" Active="No"/>
+  <Project Name="Evaluate_Reverse_Polish_Notation" Path="Evaluate_Reverse_Polish_Notation/Evaluate_Reverse_Polish_Notation.project" Active="No"/>
+  <Project Name="Max_Points_on_a_Line" Path="Max_Points_on_a_Line/Max_Points_on_a_Line.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="Reverse_Words_in_a_String" ConfigName="Debug"/>
+      <Project Name="Evaluate_Reverse_Polish_Notation" ConfigName="Debug"/>
+      <Project Name="Max_Points_on_a_Line" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Reverse_Words_in_a_String" ConfigName="Release"/>
+      <Project Name="Evaluate_Reverse_Polish_Notation" ConfigName="Release"/>
+      <Project Name="Max_Points_on_a_Line" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
