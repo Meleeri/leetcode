@@ -13,6 +13,8 @@ struct Point {
 	Point(int a, int b): x(a), y(b) {}
 };
 
+
+
 typedef struct Point Point;
 
 int gcd(int m, int n) {
