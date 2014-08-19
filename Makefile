@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ Max_Points_on_a_Line - Debug ]----------"
-	@cd "Max_Points_on_a_Line" && $(MAKE) -f  "Max_Points_on_a_Line.mk"
+	@echo "----------Building project:[ Binary_Tree_Postorder_Traversal - Debug ]----------"
+	@cd "Binary_Tree_Postorder_Traversal" && $(MAKE) -f  "Binary_Tree_Postorder_Traversal.mk"
 clean:
-	@echo "----------Cleaning project:[ Max_Points_on_a_Line - Debug ]----------"
-	@cd "Max_Points_on_a_Line" && $(MAKE) -f  "Max_Points_on_a_Line.mk" clean
+	@echo "----------Cleaning project:[ Binary_Tree_Postorder_Traversal - Debug ]----------"
+	@cd "Binary_Tree_Postorder_Traversal" && $(MAKE) -f  "Binary_Tree_Postorder_Traversal.mk" clean
