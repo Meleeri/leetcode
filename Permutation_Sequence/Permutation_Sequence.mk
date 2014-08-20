@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=Candy
+ProjectName            :=Permutation_Sequence
 ConfigurationName      :=Debug
 WorkspacePath          := "E:\Code\leetcode"
-ProjectPath            := "E:\Code\leetcode\Candy"
+ProjectPath            := "E:\Code\leetcode\Permutation_Sequence"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=lijiafan
-Date                   :=08/29/14
+Date                   :=09/04/14
 CodeLitePath           :="E:\tools\CodeLite"
 LinkerName             :=g++
 SharedObjectLinkerName :=g++ -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="Candy.txt"
+ObjectsFileList        :="Permutation_Sequence.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -52,7 +52,7 @@ LibPath                :=$(LibraryPathSwitch)E:/Code/data_structure/data_structu
 AR       := ar rcu
 CXX      := g++
 CC       := gcc
-CXXFLAGS :=  -std=c++11 -g -O0 -Wall $(Preprocessors)
+CXXFLAGS := -std=c++11 -g -O0 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
 AS       := as
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/Code/leetcode/Candy/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "E:/Code/leetcode/Permutation_Sequence/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) "main.cpp"
 
@@ -104,6 +104,6 @@ clean:
 	$(RM) ./Debug/*$(DependSuffix)
 	$(RM) $(OutputFile)
 	$(RM) $(OutputFile).exe
-	$(RM) "../.build-debug/Candy"
+	$(RM) "../.build-debug/Permutation_Sequence"
 
 

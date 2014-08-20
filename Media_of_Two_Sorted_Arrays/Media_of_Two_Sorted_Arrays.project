@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Candy" InternalType="Console">
+<CodeLite_Project Name="Media_of_Two_Sorted_Arrays" InternalType="Console">
   <Plugins>
-    <Plugin Name="qmake">
-      <![CDATA[00010001N0005Debug000000000000]]>
-    </Plugin>
     <Plugin Name="CMakePlugin">
       <![CDATA[[{
 		"name":	"Debug",
@@ -15,6 +12,9 @@
 		"arguments":	[],
 		"parentProject":	""
 	}]]]>
+    </Plugin>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
     </Plugin>
   </Plugins>
   <Description/>
@@ -110,6 +110,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>

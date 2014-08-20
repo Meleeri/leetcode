@@ -5,7 +5,16 @@
   <Project Name="Max_Points_on_a_Line" Path="Max_Points_on_a_Line/Max_Points_on_a_Line.project" Active="No"/>
   <Project Name="Binary_Tree_Postorder_Traversal" Path="Binary_Tree_Postorder_Traversal/Binary_Tree_Postorder_Traversal.project" Active="No"/>
   <Project Name="Add_Two_Numbers" Path="Add_Two_Numbers/Add_Two_Numbers.project" Active="No"/>
-  <Project Name="Candy" Path="Candy/Candy.project" Active="Yes"/>
+  <Project Name="Candy" Path="Candy/Candy.project" Active="No"/>
+  <Project Name="Sort_List" Path="Sort_List/Sort_List.project" Active="No"/>
+  <Project Name="test" Path="test/test.project"/>
+  <Project Name="Media_of_Two_Sorted_Arrays" Path="Media_of_Two_Sorted_Arrays/Media_of_Two_Sorted_Arrays.project" Active="No"/>
+  <Project Name="bintree" Path="bintree/bintree.project" Active="No"/>
+  <Project Name="Insertion_Sort_List" Path="Insertion_Sort_List/Insertion_Sort_List.project" Active="No"/>
+  <Project Name="Word_Break" Path="Word_Break/Word_Break.project" Active="No"/>
+  <Project Name="Distinct_Subsequences" Path="Distinct_Subsequences/Distinct_Subsequences.project"/>
+  <Project Name="Maximum_Subarray" Path="Maximum_Subarray/Maximum_Subarray.project" Active="No"/>
+  <Project Name="Permutation_Sequence" Path="Permutation_Sequence/Permutation_Sequence.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Project Name="Reverse_Words_in_a_String" ConfigName="Debug"/>
@@ -14,6 +23,20 @@
       <Project Name="Binary_Tree_Postorder_Traversal" ConfigName="Debug"/>
       <Project Name="Add_Two_Numbers" ConfigName="Debug"/>
       <Project Name="Candy" ConfigName="Debug"/>
+      <Project Name="Sort_List" ConfigName="Debug"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Debug"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Debug"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Debug"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Debug"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="Media_of_Two_Sorted_Arrays" ConfigName="Debug"/>
+      <Project Name="bintree" ConfigName="Debug"/>
+      <Project Name="Insertion_Sort_List" ConfigName="Debug"/>
+      <Project Name="Word_Break" ConfigName="Debug"/>
+      <Project Name="Distinct_Subsequences" ConfigName="Debug"/>
+      <Project Name="Maximum_Subarray" ConfigName="Debug"/>
+      <Project Name="Permutation_Sequence" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Project Name="Reverse_Words_in_a_String" ConfigName="Release"/>
@@ -22,6 +45,20 @@
       <Project Name="Binary_Tree_Postorder_Traversal" ConfigName="Release"/>
       <Project Name="Add_Two_Numbers" ConfigName="Release"/>
       <Project Name="Candy" ConfigName="Release"/>
+      <Project Name="Sort_List" ConfigName="Release"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Release"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Release"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Release"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Release"/>
+      <Project Name="Median_of_Two_Sorted_Arrays " ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="Media_of_Two_Sorted_Arrays" ConfigName="Release"/>
+      <Project Name="bintree" ConfigName="Release"/>
+      <Project Name="Insertion_Sort_List" ConfigName="Release"/>
+      <Project Name="Word_Break" ConfigName="Release"/>
+      <Project Name="Distinct_Subsequences" ConfigName="Release"/>
+      <Project Name="Maximum_Subarray" ConfigName="Release"/>
+      <Project Name="Permutation_Sequence" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
