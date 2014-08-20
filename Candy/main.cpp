@@ -14,19 +14,17 @@ struct adjvex {
 struct edge {
 	struct adjvex *v;
 	struct edge *next;
-	
 };
 
 typedef struct adjvex adjvex;
 typedef struct edge edge;
 
-void add_edge(adjvex *u, adjvex *v) {
+void add_edge(adjvex *u, int v) {
 	edge *e = new edge;
-	e->v = v;
-	e->next = u->first;
-	u->first = e;
-	
-	++ v->in_deg;
+	edge->index = v;
+	edge->next = u->first;
+	u->first = edge;
+	++ u->in_deg;
 }
 
 int candy(vector<int> &ratings) {
@@ -38,8 +36,8 @@ int candy(vector<int> &ratings) {
 	for (int i = 1; i < ratings.size(); ++ i) {
 		if (ratings[i] < ratings[i-1]) add_edge(vertices[i], vertices[i-1]);
 		if (ratings[i] > ratings[i-1]) add_edge(vertices[i-1], vertices[i]);
-	}
-	
+		vertices[i] = new adjvex(ratings[i], 0);
+	}	
 	
 	stack<adjvex*> s;
 	for (int i = 0; i < ratings.size(); ++ i) {
@@ -59,8 +57,8 @@ int candy(vector<int> &ratings) {
 	}
 	return all;
 }
+
 int main(int argc, char **argv)
-{
-	
+{	
 	return 0;
 }
