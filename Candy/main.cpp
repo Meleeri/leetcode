@@ -9,6 +9,7 @@ using namespace std;
 struct adjvex{
 	int id; int indeg;
 	struct edge *first;
+<<<<<<< HEAD
 };
 
 struct edge {
@@ -18,6 +19,7 @@ struct edge {
 
 typedef struct adjvex adjvex;
 typedef struct edge edge;
+
 
 inline adjvex *adjvex_new(int id) {
 	adjvex *v = (adjvex*)malloc(sizeof(adjvex));
